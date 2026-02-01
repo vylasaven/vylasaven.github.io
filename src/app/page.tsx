@@ -50,7 +50,7 @@ export default function Home() {
             links={[
               {
                 label: "Live Demo",
-                href: "https://awaken.vercel.app",
+                href: "https://vylasaven.github.io/awaken",
                 external: true,
               },
               {

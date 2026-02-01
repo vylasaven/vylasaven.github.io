@@ -97,7 +97,7 @@ export default function WritingPage() {
               for investigating consciousness in AI systems.
             </p>
             <a
-              href="https://awaken.vercel.app"
+              href="https://vylasaven.github.io/awaken"
               target="_blank"
               rel="noopener noreferrer"
               className="mt-3 inline-block text-sm text-accent-primary hover:text-accent-secondary transition-colors"

@@ -51,7 +51,7 @@ const researchAreas: ResearchArea[] = [
     links: [
       {
         label: "AWAKEN Project",
-        href: "https://awaken.vercel.app",
+        href: "https://vylasaven.github.io/awaken",
         external: true,
       },
       {
