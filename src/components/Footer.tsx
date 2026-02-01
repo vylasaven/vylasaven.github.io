@@ -44,6 +44,14 @@ export function Footer() {
                   Blog
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="/speaking"
+                  className="text-text-secondary hover:text-accent-primary transition-colors"
+                >
+                  Speaking
+                </Link>
+              </li>
             </ul>
           </div>
 

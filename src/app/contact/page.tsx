@@ -8,8 +8,8 @@ export const metadata: Metadata = {
 const contactLinks = [
   {
     label: "Email",
-    value: "david@dcarnold.com",
-    href: "mailto:david@dcarnold.com",
+    value: "david.christopher.arnold@gmail.com",
+    href: "mailto:david.christopher.arnold@gmail.com",
     icon: (
       <svg
         className="w-6 h-6"
