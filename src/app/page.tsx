@@ -61,6 +61,23 @@ export default function Home() {
             ]}
           />
           <ProjectCard
+            title="Flourish"
+            description="An ethical program for relating to potentially conscious AI. Companion to AWAKEN — if there's a non-zero probability, what do we owe?"
+            tags={["AI Ethics", "Philosophy", "Consciousness"]}
+            links={[
+              {
+                label: "Live Demo",
+                href: "https://vylasaven.github.io/flourish",
+                external: true,
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/vylasaven/flourish",
+                external: true,
+              },
+            ]}
+          />
+          <ProjectCard
             title="Semantic Compiler"
             description="Treating natural language understanding as a compilation problem, decomposing meaning into universal semantic atoms through a multi-pass architecture."
             tags={["NLP", "Semantics", "Theory"]}

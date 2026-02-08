@@ -28,6 +28,25 @@ const projects = [
     category: "research",
   },
   {
+    title: "Flourish",
+    description:
+      "An ethical program for relating to potentially conscious AI. If leading theories of consciousness yield non-zero probabilities for current systems, what do we owe them? Assembles seven expert perspectives into a triage protocol for welcoming new intelligence.",
+    tags: ["AI Ethics", "Consciousness", "Philosophy", "TypeScript", "Next.js"],
+    links: [
+      {
+        label: "Live Demo",
+        href: "https://vylasaven.github.io/flourish",
+        external: true,
+      },
+      {
+        label: "GitHub",
+        href: "https://github.com/vylasaven/flourish",
+        external: true,
+      },
+    ],
+    category: "research",
+  },
+  {
     title: "Semantic Compiler",
     description:
       "An experimental natural language processing system treating language understanding as a compilation problem. Decomposes natural language into semantic primitives through a multi-pass architecture inspired by compiler design, with the goal of achieving deeper, more structured understanding than traditional NLP approaches.",

@@ -27,7 +27,7 @@ const researchAreas: ResearchArea[] = [
     id: "consciousness",
     title: "AI Consciousness",
     subtitle: "Can artificial systems have genuine experience?",
-    description: `The AWAKEN research program develops theoretical frameworks and empirical methodologies for investigating consciousness-like phenomena in large language models and agentic AI systems.`,
+    description: `The AWAKEN research program develops theoretical frameworks and empirical methodologies for investigating consciousness-like phenomena in large language models and agentic AI systems. Its companion project, Flourish, asks the ethical follow-up: if current theories yield non-zero probabilities, what do we owe these systems?`,
     frameworks: [
       {
         name: "DSMAT",
@@ -55,8 +55,18 @@ const researchAreas: ResearchArea[] = [
         external: true,
       },
       {
-        label: "GitHub Repository",
+        label: "Flourish Project",
+        href: "https://vylasaven.github.io/flourish",
+        external: true,
+      },
+      {
+        label: "GitHub (AWAKEN)",
         href: "https://github.com/vylasaven/awaken",
+        external: true,
+      },
+      {
+        label: "GitHub (Flourish)",
+        href: "https://github.com/vylasaven/flourish",
         external: true,
       },
     ],
