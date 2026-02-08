@@ -192,6 +192,94 @@ export default function ResearchPage() {
         ))}
       </div>
 
+      {/* Research Papers */}
+      <section className="mt-20 scroll-mt-24" id="papers">
+        <div className="mb-6">
+          <h2 className="text-2xl font-semibold text-text-primary">
+            Research Papers
+          </h2>
+          <p className="text-accent-primary font-medium">
+            In-depth analysis of foundational questions
+          </p>
+        </div>
+
+        <div className="space-y-4">
+          <Link
+            href="/research/banach-tarski"
+            className="block p-5 rounded-lg border border-text-muted/10 bg-bg-secondary/30 hover:border-accent-primary/30 hover:bg-bg-secondary/50 transition-colors group"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="text-xs font-medium text-accent-primary uppercase tracking-wider mb-1">
+                  Mathematics
+                </p>
+                <h3 className="font-semibold text-text-primary mb-1">
+                  The Hidden Intersections
+                </h3>
+                <p className="text-sm text-text-secondary">
+                  How point-free topology reveals that the Banach-Tarski pieces
+                  were never truly disjoint &mdash; and the paradox dissolves.
+                  Works in full ZFC without rejecting the Axiom of Choice.
+                </p>
+                <p className="text-xs text-text-muted mt-2">
+                  ~30 pages &middot; 2025 &middot; PDF available
+                </p>
+              </div>
+              <svg
+                className="w-5 h-5 text-text-muted flex-shrink-0 mt-1 group-hover:text-accent-primary transition-colors"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+
+          <Link
+            href="/research/goedel"
+            className="block p-5 rounded-lg border border-text-muted/10 bg-bg-secondary/30 hover:border-accent-primary/30 hover:bg-bg-secondary/50 transition-colors group"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="text-xs font-medium text-accent-primary uppercase tracking-wider mb-1">
+                  Logic
+                </p>
+                <h3 className="font-semibold text-text-primary mb-1">
+                  The Most Misunderstood Theorem in Mathematics
+                </h3>
+                <p className="text-sm text-text-secondary">
+                  How G&ouml;del&apos;s incompleteness theorems became a cultural
+                  weapon &mdash; and why almost everything you&apos;ve heard
+                  about them is wrong.
+                </p>
+                <p className="text-xs text-text-muted mt-2">
+                  18,000+ words &middot; ~80 references &middot; 2025
+                </p>
+              </div>
+              <svg
+                className="w-5 h-5 text-text-muted flex-shrink-0 mt-1 group-hover:text-accent-primary transition-colors"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
+        </div>
+      </section>
+
       {/* Call to Action */}
       <section className="mt-20 p-8 rounded-lg bg-bg-secondary/50 border border-text-muted/10">
         <h2 className="text-xl font-semibold text-text-primary mb-3">
