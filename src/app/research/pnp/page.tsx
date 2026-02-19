@@ -967,18 +967,6 @@ export default function PnpPage() {
               &mdash; and why almost everything you&apos;ve heard about them is wrong.
             </p>
           </Link>
-          <Link
-            href="/research/banach-tarski"
-            className="block p-4 rounded-lg border border-text-muted/10 bg-bg-primary hover:border-accent-primary/30 transition-colors"
-          >
-            <p className="font-medium text-text-primary">
-              The Hidden Intersections
-            </p>
-            <p className="text-sm text-text-secondary">
-              How locale theory resolves the Banach-Tarski paradox without
-              rejecting the Axiom of Choice.
-            </p>
-          </Link>
         </div>
       </section>
 

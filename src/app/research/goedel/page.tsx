@@ -380,15 +380,15 @@ export default function GoedelPage() {
         </h3>
         <div className="space-y-3">
           <Link
-            href="/research/banach-tarski"
+            href="/research/pnp"
             className="block p-4 rounded-lg border border-text-muted/10 bg-bg-primary hover:border-accent-primary/30 transition-colors"
           >
             <p className="font-medium text-text-primary">
-              The Hidden Intersections
+              The Universe Doesn&apos;t Troll Us
             </p>
             <p className="text-sm text-text-secondary">
-              How locale theory resolves the Banach-Tarski paradox without
-              rejecting the Axiom of Choice.
+              A Wittgensteinian framework for P vs NP &mdash; why computational
+              hardness tracks semantic emptiness.
             </p>
           </Link>
         </div>
