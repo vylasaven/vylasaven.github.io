@@ -287,6 +287,41 @@ export default function ResearchPage() {
               </svg>
             </div>
           </Link>
+          <Link
+            href="/research/pnp"
+            className="block p-5 rounded-lg border border-text-muted/10 bg-bg-secondary/30 hover:border-accent-primary/30 hover:bg-bg-secondary/50 transition-colors group"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="text-xs font-medium text-accent-primary uppercase tracking-wider mb-1">
+                  Complexity Theory
+                </p>
+                <h3 className="font-semibold text-text-primary mb-1">
+                  The Universe Doesn&apos;t Troll Us
+                </h3>
+                <p className="text-sm text-text-secondary">
+                  A Wittgensteinian framework for P vs NP &mdash; why computational
+                  hardness tracks semantic emptiness, not inherent difficulty.
+                </p>
+                <p className="text-xs text-text-muted mt-2">
+                  Interactive &middot; With dialogue &middot; 2025&ndash;2026
+                </p>
+              </div>
+              <svg
+                className="w-5 h-5 text-text-muted flex-shrink-0 mt-1 group-hover:text-accent-primary transition-colors"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </div>
+          </Link>
         </div>
       </section>
 
