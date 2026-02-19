@@ -143,7 +143,7 @@ export default function PnpPage() {
           <span className="text-text-muted/30">|</span>
           <span>Full dialogue included</span>
           <span className="text-text-muted/30">|</span>
-          <span>2025&ndash;2026</span>
+          <span>February 2026</span>
         </div>
       </header>
 
@@ -431,7 +431,7 @@ export default function PnpPage() {
 
         <div className="p-6 sm:p-8 rounded-lg border border-text-muted/10 bg-bg-secondary/20">
           <p className="text-sm text-text-muted italic mb-8">
-            A conversation between David Arnold and Claude, February 2025 &ndash; February 2026.
+            A conversation between David Arnold and Claude, February 17&ndash;18, 2026.
             David&apos;s background: Philosophy of Language and Symbolic Systems (Stanford).
           </p>
 

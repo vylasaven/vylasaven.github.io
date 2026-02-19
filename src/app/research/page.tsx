@@ -267,7 +267,7 @@ export default function ResearchPage() {
                   hardness tracks semantic emptiness, not inherent difficulty.
                 </p>
                 <p className="text-xs text-text-muted mt-2">
-                  Interactive &middot; With dialogue &middot; 2025&ndash;2026
+                  Interactive &middot; With dialogue &middot; February 2026
                 </p>
               </div>
               <svg
