@@ -8,7 +8,7 @@ export const mdxComponents: MDXComponents = {
     </h1>
   ),
   h2: ({ children }) => (
-    <h2 className="text-2xl font-semibold mt-8 mb-3 text-text-primary">
+    <h2 className="text-lg font-medium mt-10 mb-3 text-text-primary tracking-normal">
       {children}
     </h2>
   ),
@@ -70,4 +70,9 @@ export const mdxComponents: MDXComponents = {
     </pre>
   ),
   hr: () => <hr className="my-8 border-text-muted/20" />,
+  sup: ({ children, ...props }) => (
+    <sup className="text-xs" {...props}>
+      {children}
+    </sup>
+  ),
 };
