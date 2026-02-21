@@ -96,7 +96,7 @@ const researchAreas: ResearchArea[] = [
           "A processing model using multiple analysis passes (lexical, syntactic, semantic, pragmatic) to progressively refine understanding, with each pass informing subsequent analysis.",
       },
     ],
-    links: [{ label: "View Projects", href: "/projects" }],
+    links: [],
   },
   {
     id: "social",
@@ -117,7 +117,7 @@ const researchAreas: ResearchArea[] = [
           "Algorithms that prioritize lived experience over professional credentials when connecting people for support, based on the insight that shared experience creates unique understanding.",
       },
     ],
-    links: [{ label: "View Projects", href: "/projects" }],
+    links: [],
   },
 ];
 
@@ -285,6 +285,70 @@ export default function ResearchPage() {
               </svg>
             </div>
           </Link>
+        </div>
+      </section>
+
+      {/* Creative Works */}
+      <section className="mt-20 scroll-mt-24" id="creative">
+        <div className="mb-6">
+          <h2 className="text-2xl font-semibold text-text-primary">
+            Creative Works
+          </h2>
+          <p className="text-accent-warm font-medium">
+            Fiction and storytelling
+          </p>
+        </div>
+        <div className="space-y-4">
+          <a
+            href="https://www.amazon.com/Technically-Magic-David-Arnold-ebook/dp/B002VWKFVE"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block p-5 rounded-lg border border-text-muted/10 bg-bg-secondary/30 hover:border-accent-warm/30 hover:bg-bg-secondary/50 transition-colors group"
+          >
+            <div className="flex items-start justify-between gap-4">
+              <div>
+                <p className="text-xs font-medium text-accent-warm uppercase tracking-wider mb-1">
+                  Novel
+                </p>
+                <h3 className="font-semibold text-text-primary mb-1">
+                  Technically Magic
+                </h3>
+                <p className="text-sm text-text-secondary">
+                  A comic fantasy about a programmer who discovers magic works
+                  like code&mdash;with all the bugs, crashes, and debugging that
+                  implies.
+                </p>
+              </div>
+              <svg
+                className="w-5 h-5 text-text-muted flex-shrink-0 mt-1 group-hover:text-accent-warm transition-colors"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                />
+              </svg>
+            </div>
+          </a>
+          <div className="p-5 rounded-lg border border-text-muted/10 bg-bg-secondary/30">
+            <p className="text-xs font-medium text-accent-warm uppercase tracking-wider mb-1">
+              Short Fiction
+            </p>
+            <h3 className="font-semibold text-text-primary mb-1">
+              &quot;I, Hog&quot;
+            </h3>
+            <p className="text-sm text-text-secondary">
+              A short story exploring consciousness and identity through an
+              unexpected lens.
+            </p>
+            <p className="text-xs text-text-muted mt-2">
+              The Fabulist, 2010
+            </p>
+          </div>
         </div>
       </section>
 

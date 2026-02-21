@@ -87,7 +87,7 @@ export default function Home() {
             title="Anonversations"
             description="Peer-to-peer support systems connecting people through shared experience, using AI-assisted matching for meaningful anonymous conversations."
             tags={["Social Tech", "AI", "Mental Health"]}
-            links={[{ label: "Learn More", href: "/projects" }]}
+            links={[{ label: "Learn More", href: "/research#social" }]}
           />
         </div>
       </section>
@@ -140,27 +140,29 @@ export default function Home() {
             </p>
           </Link>
           <Link
-            href="/projects"
+            href="/speaking"
             className="group p-4 rounded-lg border border-text-muted/10 hover:border-accent-primary/30 transition-all"
           >
             <h3 className="font-medium text-text-primary group-hover:text-accent-primary transition-colors">
-              Projects
+              Speaking
             </h3>
             <p className="mt-1 text-sm text-text-muted">
-              Software and research projects
+              Talks and presentations
             </p>
           </Link>
-          <Link
-            href="/writing"
+          <a
+            href="https://github.com/vylasaven"
+            target="_blank"
+            rel="noopener noreferrer"
             className="group p-4 rounded-lg border border-text-muted/10 hover:border-accent-primary/30 transition-all"
           >
             <h3 className="font-medium text-text-primary group-hover:text-accent-primary transition-colors">
-              Writing
+              GitHub
             </h3>
             <p className="mt-1 text-sm text-text-muted">
-              Novel, short fiction, publications
+              Open source work
             </p>
-          </Link>
+          </a>
           <Link
             href="/contact"
             className="group p-4 rounded-lg border border-text-muted/10 hover:border-accent-primary/30 transition-all"
