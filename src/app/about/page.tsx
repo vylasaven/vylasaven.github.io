@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "David Arnold — Quality engineer for autonomous systems, building with AI agents. 15+ years from Apple to Stanford to three autonomous systems companies.",
+    "David Arnold — I study how meaning arises in systems and build instruments to verify whether it's real. Across language, computation, consciousness, and human connection.",
 };
 
 export default function AboutPage() {
@@ -24,37 +24,79 @@ export default function AboutPage() {
             David Arnold
           </h2>
           <p className="text-text-secondary">
-            Quality engineer for autonomous systems. Building with AI agents.
+            I study how meaning arises in systems and build instruments to verify
+            whether it&apos;s real.
           </p>
         </div>
       </div>
+
+      {/* The Mission */}
+      <section className="mb-12">
+        <div className="p-6 sm:p-8 rounded-lg border border-accent-primary/20 bg-accent-primary/5">
+          <p className="text-lg text-text-secondary leading-relaxed mb-4">
+            My work spans AI consciousness, computational semantics, autonomous
+            systems, and human connection — but it&apos;s one program. The
+            through-line is a single claim:{" "}
+            <strong className="text-text-primary">
+              meaning is structural, and structure is detectable.
+            </strong>
+          </p>
+          <p className="text-text-secondary leading-relaxed">
+            In language, structural context disambiguates meaning. In
+            computation, structural meaning makes problems tractable. In AI
+            systems, structural indicators may distinguish genuine experience
+            from behavioral mimicry. In human connection, the structure of
+            shared experience creates understanding that credentials and
+            identity performance cannot. I build the instruments that test
+            these claims.
+          </p>
+        </div>
+      </section>
 
       {/* Narrative */}
       <section className="mb-12">
         <div className="prose max-w-none">
           <p className="text-lg text-text-secondary leading-relaxed mb-6">
-            I&apos;ve spent my career ensuring autonomous systems behave
-            correctly — and AI agents are just the latest ones. After three years
-            at Apple learning to diagnose systems and train people, I studied
-            Philosophy and Symbolic Systems at Stanford: the study of how minds,
-            machines, and language interact. Then I went straight into autonomous
-            systems — ocean robots at Liquid Robotics/Boeing, mining vehicles at
-            SafeAI, and now maritime autonomy at Saronic Technologies.
+            I&apos;ve spent 15+ years verifying that autonomous systems do what
+            they should — ocean robots at Liquid Robotics/Boeing, mining
+            vehicles at SafeAI, maritime vessels at Saronic Technologies. Before
+            that, three years at Apple learning to diagnose systems and train
+            people. In between, Philosophy and Symbolic Systems at Stanford: the
+            study of how minds, machines, and language interact.
           </p>
           <p className="text-text-secondary leading-relaxed mb-6">
-            At Saronic, I started using Claude Code in March 2025 to build a
-            testrunner for on-water software testing. Within nine months, I had
-            orchestrated AI agents to build a full-stack quality platform —
-            testrunner, TestRail/Linear/GitHub/JAMA integrations, dashboard,
-            CI/CD test suite — that a software engineer with a traditional CS
-            degree now develops on. That work led to a promotion to Software
-            Quality Manager and a team of two.
+            At Saronic, I orchestrated AI agents to build a full-stack quality
+            platform in nine months — testrunner, integrations, dashboard,
+            CI/CD — that a software engineer with a traditional CS degree now
+            develops on. That work taught me something: verifying whether an AI
+            agent&apos;s output is correct is the same problem as verifying
+            whether an autonomous vessel follows its route. The question is
+            always the same. Is the meaning real, or is it noise?
           </p>
           <p className="text-text-secondary leading-relaxed">
-            The throughline is the same problem at every scale: how do you verify
-            that an autonomous system does what it should? Whether that system is
-            an ocean-going robot, a 200-ton mining truck, a maritime vessel, or
-            an AI agent writing production code.
+            That question now drives everything I do — from{" "}
+            <Link
+              href="/research#consciousness"
+              className="text-accent-primary hover:text-accent-secondary transition-colors"
+            >
+              investigating consciousness in AI systems
+            </Link>
+            , to{" "}
+            <Link
+              href="/research#semantics"
+              className="text-accent-primary hover:text-accent-secondary transition-colors"
+            >
+              formalizing how meaning arises in language
+            </Link>
+            , to{" "}
+            <Link
+              href="/research#social"
+              className="text-accent-primary hover:text-accent-secondary transition-colors"
+            >
+              building technology that connects people through the structure of
+              shared experience
+            </Link>
+            .
           </p>
         </div>
       </section>
@@ -313,21 +355,36 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Research Interests */}
+      {/* Research Program */}
       <section>
         <h2 className="text-2xl font-semibold text-text-primary mb-4">
-          Research
+          Research Program
         </h2>
-        <p className="text-text-secondary leading-relaxed">
-          I also pursue independent research in AI consciousness, computational
-          semantics, and social technology.{" "}
-          <Link
-            href="/research"
-            className="text-accent-primary hover:text-accent-secondary transition-colors"
-          >
-            See current projects &rarr;
-          </Link>
+        <p className="text-text-secondary leading-relaxed mb-4">
+          Five projects, one question: is the meaning real?
         </p>
+        <div className="grid gap-3">
+          {[
+            { name: "AWAKEN", question: "Can genuine experience arise in AI systems?", href: "/research#consciousness" },
+            { name: "Flourish", question: "If it can, what do we owe them?", href: "/research#consciousness" },
+            { name: "PNP", question: "Does computational hardness track the absence of meaning?", href: "/research/pnp" },
+            { name: "Semantic Compiler", question: "Can meaning be architecturally locked into place?", href: "/research#semantics" },
+            { name: "anonversations", question: "Does the structure of shared experience transmit across digital mediums?", href: "/research#social" },
+          ].map((project) => (
+            <Link
+              key={project.name}
+              href={project.href}
+              className="flex items-baseline gap-3 p-3 rounded-lg border border-text-muted/10 bg-bg-secondary/30 hover:border-accent-primary/30 transition-colors"
+            >
+              <span className="font-semibold text-text-primary text-sm whitespace-nowrap">
+                {project.name}
+              </span>
+              <span className="text-sm text-text-secondary">
+                {project.question}
+              </span>
+            </Link>
+          ))}
+        </div>
       </section>
     </div>
   );
