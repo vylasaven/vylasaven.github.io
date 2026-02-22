@@ -96,6 +96,14 @@ export default function AboutPage() {
               building technology that connects people through the structure of
               shared experience
             </Link>
+            . If you want the longer version — bookmobile kid to Stanford
+            philosopher to autonomous systems engineer —{" "}
+            <Link
+              href="/blog/what-i-fed-my-head"
+              className="text-accent-primary hover:text-accent-secondary transition-colors"
+            >
+              here&apos;s what I fed my head
+            </Link>
             .
           </p>
         </div>
