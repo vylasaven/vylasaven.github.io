@@ -96,6 +96,15 @@ export default function AboutPage() {
               building technology that connects people through the structure of
               shared experience
             </Link>
+            . Somewhere in there I also wrote{" "}
+            <a
+              href="https://www.amazon.com/Technically-Magic-David-Arnold-ebook/dp/B002VWKFVE"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-accent-primary hover:text-accent-secondary transition-colors"
+            >
+              a novel
+            </a>
             . If you want the longer version — bookmobile kid to Stanford
             philosopher to autonomous systems engineer —{" "}
             <Link
