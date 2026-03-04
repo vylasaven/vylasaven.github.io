@@ -6,7 +6,7 @@ import { BlogPostCard } from "@/components/BlogPostCard";
 export const metadata: Metadata = {
   title: "Blog",
   description:
-    "Thoughts on AI, consciousness, language, and technology by David Arnold.",
+    "Writing on software, AI, and whatever else captures my attention.",
 };
 
 export default function BlogPage() {
@@ -18,8 +18,7 @@ export default function BlogPage() {
         Blog
       </h1>
       <p className="text-lg text-text-secondary max-w-2xl mb-12">
-        On AI, consciousness, language, technology, and whatever else captures
-        my attention.
+        On software, AI, technology, and whatever else captures my attention.
       </p>
 
       {posts.length > 0 ? (

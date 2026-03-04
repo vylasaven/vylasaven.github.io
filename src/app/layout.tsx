@@ -16,17 +16,19 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "David Arnold - Researcher, Engineer, Writer",
+    default: "David Arnold - Engineer, Builder, Writer",
     template: "%s | David Arnold",
   },
   description:
-    "Independent researcher working at the intersection of AI consciousness, computational semantics, and social technology.",
+    "Software engineer building developer tools, mobile apps, and platforms for human connection through AI agent orchestration.",
   keywords: [
-    "AI consciousness",
-    "computational semantics",
-    "researcher",
     "software engineer",
-    "writer",
+    "developer tools",
+    "React Native",
+    "TypeScript",
+    "AI agent orchestration",
+    "accessibility",
+    "open source",
   ],
   authors: [{ name: "David Arnold" }],
   openGraph: {

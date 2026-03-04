@@ -12,8 +12,8 @@ export function Footer() {
               David Arnold
             </h3>
             <p className="text-sm text-text-secondary">
-              Independent researcher working at the intersection of AI,
-              cognitive science, and language.
+              Software engineer building developer tools, mobile apps, and
+              platforms for human connection.
             </p>
           </div>
 
@@ -22,10 +22,10 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <Link
-                  href="/research"
+                  href="/projects"
                   className="text-text-secondary hover:text-accent-primary transition-colors"
                 >
-                  Research
+                  Projects
                 </Link>
               </li>
               <li>
@@ -34,14 +34,6 @@ export function Footer() {
                   className="text-text-secondary hover:text-accent-primary transition-colors"
                 >
                   Blog
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/speaking"
-                  className="text-text-secondary hover:text-accent-primary transition-colors"
-                >
-                  Speaking
                 </Link>
               </li>
             </ul>

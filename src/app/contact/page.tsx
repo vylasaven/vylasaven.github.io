@@ -59,8 +59,8 @@ export default function ContactPage() {
         Contact
       </h1>
       <p className="text-lg text-text-secondary max-w-2xl mb-12">
-        Interested in discussing research, collaboration, or just want to say
-        hello? I&apos;d love to hear from you.
+        Interested in working together, or just want to say hello? I&apos;d
+        love to hear from you.
       </p>
 
       <div className="grid gap-4 mb-16">
@@ -111,29 +111,29 @@ export default function ContactPage() {
             <li className="flex items-start gap-2">
               <span className="text-accent-primary mt-1">•</span>
               <span>
-                <strong className="text-text-primary">Research collaboration</strong> on AI
-                consciousness, computational semantics, or related areas
+                <strong className="text-text-primary">Engineering collaboration</strong> on
+                developer tools, mobile apps, or accessibility
+              </span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-accent-primary mt-1">•</span>
+              <span>
+                <strong className="text-text-primary">AI agent orchestration</strong> methodology
+                and workflows
+              </span>
+            </li>
+            <li className="flex items-start gap-2">
+              <span className="text-accent-primary mt-1">•</span>
+              <span>
+                <strong className="text-text-primary">Open source contributions</strong> to
+                claude-sonar or other projects
               </span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-accent-primary mt-1">•</span>
               <span>
                 <strong className="text-text-primary">Interesting problems</strong> at the
-                intersection of language, mind, and technology
-              </span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-accent-primary mt-1">•</span>
-              <span>
-                <strong className="text-text-primary">Speaking opportunities</strong> about
-                AI research or interdisciplinary approaches
-              </span>
-            </li>
-            <li className="flex items-start gap-2">
-              <span className="text-accent-primary mt-1">•</span>
-              <span>
-                <strong className="text-text-primary">Thoughtful feedback</strong> on my
-                research frameworks or creative work
+                intersection of technology and human experience
               </span>
             </li>
           </ul>

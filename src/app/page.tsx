@@ -14,19 +14,19 @@ export default function Home() {
           David Arnold
         </h1>
         <p className="mt-4 text-xl sm:text-2xl text-accent-primary font-medium">
-          Researcher, Engineer, Writer
+          Engineer, Builder, Writer
         </p>
         <p className="mt-6 text-lg text-text-secondary max-w-2xl leading-relaxed">
-          Building at the intersection of language, mind, and machine. I explore
-          consciousness in AI systems, develop computational approaches to
-          semantics, and create technology for human connection.
+          I build developer tools, mobile apps, and platforms for human
+          connection — all through AI agent orchestration. The skill is knowing
+          what to build, how to decompose it, and how to verify the result.
         </p>
         <div className="mt-8 flex flex-wrap gap-4">
           <Link
-            href="/research"
+            href="/projects"
             className="px-6 py-2.5 bg-accent-primary text-white rounded-lg font-medium hover:bg-accent-primary/90 transition-colors"
           >
-            Explore Research
+            View Projects
           </Link>
           <Link
             href="/about"
@@ -42,52 +42,36 @@ export default function Home() {
         <h2 className="text-2xl font-semibold text-text-primary mb-8">
           What I&apos;m Working On
         </h2>
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           <ProjectCard
-            title="AWAKEN"
-            description="AI consciousness research framework developing theoretical models (DSMAT) and empirical methodologies (CAVM) for investigating consciousness-like phenomena in AI systems."
-            tags={["AI", "Consciousness", "Research"]}
+            title="claude-sonar"
+            description="Screen reader accessibility plugin for Claude Code. Pure pipeline architecture with 12 tool formatters, earcon sounds, and 545 tests."
+            tags={["TypeScript", "Node.js", "Accessibility"]}
             links={[
               {
-                label: "Live Demo",
-                href: "https://vylasaven.github.io/awaken",
-                external: true,
-              },
-              {
                 label: "GitHub",
-                href: "https://github.com/vylasaven/awaken",
+                href: "https://github.com/vylasaven/claude-sonar",
                 external: true,
               },
             ]}
           />
           <ProjectCard
-            title="Flourish"
-            description="An ethical program for relating to potentially conscious AI. Companion to AWAKEN — if there's a non-zero probability, what do we owe?"
-            tags={["AI Ethics", "Philosophy", "Consciousness"]}
-            links={[
-              {
-                label: "Live Demo",
-                href: "https://vylasaven.github.io/flourish",
-                external: true,
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/vylasaven/flourish",
-                external: true,
-              },
-            ]}
+            title="Toward Perfection"
+            description="Spiritual action roguelike with custom game engine, GPU-rendered Skia graphics, and 14 philosophical traditions as playable combat systems."
+            tags={["React Native", "TypeScript", "Skia"]}
+            links={[{ label: "Learn More", href: "/projects" }]}
           />
           <ProjectCard
-            title="Semantic Compiler"
-            description="Treating natural language understanding as a compilation problem, decomposing meaning into universal semantic atoms through a multi-pass architecture."
-            tags={["NLP", "Semantics", "Theory"]}
-            links={[{ label: "Learn More", href: "/research#semantics" }]}
+            title="Hydrate"
+            description="Gamified hydration tracking iOS app with 25-level progression, 5 themed visual experiences, barcode scanning, and API integrations."
+            tags={["React Native", "TypeScript", "iOS"]}
+            links={[{ label: "Learn More", href: "/projects" }]}
           />
           <ProjectCard
             title="Anonversations"
-            description="Peer-to-peer support systems connecting people through shared experience, using AI-assisted matching for meaningful anonymous conversations."
+            description="Anonymous peer support platform connecting people through shared experience, using AI-assisted matching for meaningful conversations."
             tags={["Social Tech", "AI", "Mental Health"]}
-            links={[{ label: "Learn More", href: "/research#social" }]}
+            links={[{ label: "Learn More", href: "/projects" }]}
           />
         </div>
       </section>
@@ -127,27 +111,16 @@ export default function Home() {
         <h2 className="text-2xl font-semibold text-text-primary mb-8">
           Quick Links
         </h2>
-        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <Link
-            href="/research"
+            href="/projects"
             className="group p-4 rounded-lg border border-text-muted/10 hover:border-accent-primary/30 transition-all"
           >
             <h3 className="font-medium text-text-primary group-hover:text-accent-primary transition-colors">
-              Research
+              Projects
             </h3>
             <p className="mt-1 text-sm text-text-muted">
-              AI consciousness, computational semantics
-            </p>
-          </Link>
-          <Link
-            href="/speaking"
-            className="group p-4 rounded-lg border border-text-muted/10 hover:border-accent-primary/30 transition-all"
-          >
-            <h3 className="font-medium text-text-primary group-hover:text-accent-primary transition-colors">
-              Speaking
-            </h3>
-            <p className="mt-1 text-sm text-text-muted">
-              Talks and presentations
+              Developer tools, mobile apps, platforms
             </p>
           </Link>
           <a

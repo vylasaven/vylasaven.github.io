@@ -4,7 +4,7 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "About",
   description:
-    "David Arnold — I study how meaning arises in systems and build instruments to verify whether it's real. Across language, computation, consciousness, and human connection.",
+    "David Arnold — software engineer building developer tools, mobile apps, and platforms for human connection through AI agent orchestration.",
 };
 
 export default function AboutPage() {
@@ -24,8 +24,8 @@ export default function AboutPage() {
             David Arnold
           </h2>
           <p className="text-text-secondary">
-            I study how meaning arises in systems and build instruments to verify
-            whether it&apos;s real.
+            I build software that matters &mdash; developer tools, mobile apps,
+            and platforms for human connection.
           </p>
         </div>
       </div>
@@ -34,21 +34,21 @@ export default function AboutPage() {
       <section className="mb-12">
         <div className="p-6 sm:p-8 rounded-lg border border-accent-primary/20 bg-accent-primary/5">
           <p className="text-lg text-text-secondary leading-relaxed mb-4">
-            My work spans AI consciousness, computational semantics, autonomous
-            systems, and human connection — but it&apos;s one program. The
-            through-line is a single claim:{" "}
+            I build software through AI agent orchestration &mdash; specifying
+            requirements, directing agent work, reviewing output, iterating on
+            architecture. The through-line across everything I build is a single
+            conviction:{" "}
             <strong className="text-text-primary">
-              meaning is structural, and structure is detectable.
+              the hardest problems are worth solving, and the best tools make
+              them accessible.
             </strong>
           </p>
           <p className="text-text-secondary leading-relaxed">
-            In language, structural context disambiguates meaning. In
-            computation, structural meaning makes problems tractable. In AI
-            systems, structural indicators may distinguish genuine experience
-            from behavioral mimicry. In human connection, the structure of
-            shared experience creates understanding that credentials and
-            identity performance cannot. I build the instruments that test
-            these claims.
+            From accessibility plugins that make AI development tools usable by
+            blind developers, to mobile apps that turn health tracking into
+            play, to platforms that connect people through what they&apos;ve
+            been through rather than who they are &mdash; the work is about
+            building things that matter and shipping them.
           </p>
         </div>
       </section>
@@ -74,29 +74,14 @@ export default function AboutPage() {
             always the same. Is the meaning real, or is it noise?
           </p>
           <p className="text-text-secondary leading-relaxed">
-            That question now drives everything I do — from{" "}
+            That experience now drives everything I build &mdash; from{" "}
             <Link
-              href="/research#consciousness"
+              href="/projects"
               className="text-accent-primary hover:text-accent-secondary transition-colors"
             >
-              investigating consciousness in AI systems
-            </Link>
-            , to{" "}
-            <Link
-              href="/research#semantics"
-              className="text-accent-primary hover:text-accent-secondary transition-colors"
-            >
-              formalizing how meaning arises in language
-            </Link>
-            , to{" "}
-            <Link
-              href="/research#social"
-              className="text-accent-primary hover:text-accent-secondary transition-colors"
-            >
-              building technology that connects people through the structure of
-              shared experience
-            </Link>
-            . Somewhere in there I also wrote{" "}
+              accessibility tools and mobile apps
+            </Link>{" "}
+            to platforms for human connection. Somewhere in there I also wrote{" "}
             <a
               href="https://www.amazon.com/Technically-Magic-David-Arnold-ebook/dp/B002VWKFVE"
               target="_blank"
@@ -105,8 +90,8 @@ export default function AboutPage() {
             >
               a novel
             </a>
-            . If you want the longer version — bookmobile kid to Stanford
-            philosopher to autonomous systems engineer —{" "}
+            . If you want the longer version &mdash; bookmobile kid to Stanford
+            philosopher to autonomous systems engineer &mdash;{" "}
             <Link
               href="/blog/what-i-fed-my-head"
               className="text-accent-primary hover:text-accent-secondary transition-colors"
@@ -311,7 +296,9 @@ export default function AboutPage() {
                 "Python",
                 "TypeScript",
                 "React",
+                "React Native",
                 "Next.js",
+                "Skia",
                 "Rust (PyO3)",
                 "ros2",
               ].map((skill) => (
@@ -372,37 +359,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Research Program */}
-      <section>
-        <h2 className="text-2xl font-semibold text-text-primary mb-4">
-          Research Program
-        </h2>
-        <p className="text-text-secondary leading-relaxed mb-4">
-          Five projects, one question: is the meaning real?
-        </p>
-        <div className="grid gap-3">
-          {[
-            { name: "AWAKEN", question: "Can genuine experience arise in AI systems?", href: "/research#consciousness" },
-            { name: "Flourish", question: "If it can, what do we owe them?", href: "/research#consciousness" },
-            { name: "PNP", question: "Does computational hardness track the absence of meaning?", href: "/research/pnp" },
-            { name: "Semantic Compiler", question: "Can meaning be architecturally locked into place?", href: "/research#semantics" },
-            { name: "anonversations", question: "Does the structure of shared experience transmit across digital mediums?", href: "/research#social" },
-          ].map((project) => (
-            <Link
-              key={project.name}
-              href={project.href}
-              className="flex items-baseline gap-3 p-3 rounded-lg border border-text-muted/10 bg-bg-secondary/30 hover:border-accent-primary/30 transition-colors"
-            >
-              <span className="font-semibold text-text-primary text-sm whitespace-nowrap">
-                {project.name}
-              </span>
-              <span className="text-sm text-text-secondary">
-                {project.question}
-              </span>
-            </Link>
-          ))}
-        </div>
-      </section>
     </div>
   );
 }
