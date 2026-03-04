@@ -45,12 +45,17 @@ export default function Home() {
         <div className="grid gap-6 md:grid-cols-2">
           <ProjectCard
             title="claude-sonar"
-            description="Screen reader accessibility plugin for Claude Code. Pure pipeline architecture with 12 tool formatters, earcon sounds, and 545 tests."
+            description="Screen reader accessibility plugin for Claude Code. Transforms tool output into concise, speakable announcements via 14 formatters, earcon audio cues, and configurable TTS. 545 tests."
             tags={["TypeScript", "Node.js", "Accessibility"]}
             links={[
               {
                 label: "GitHub",
                 href: "https://github.com/vylasaven/claude-sonar",
+                external: true,
+              },
+              {
+                label: "npm",
+                href: "https://www.npmjs.com/package/claude-sonar",
                 external: true,
               },
             ]}

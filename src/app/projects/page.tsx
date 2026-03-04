@@ -11,12 +11,17 @@ const projects = [
   {
     title: "claude-sonar",
     description:
-      "Screen reader accessibility plugin for Claude Code. Pure pipeline architecture with 12 tool formatters, earcon sound system, and 545 tests. Makes AI-assisted development accessible to blind and low-vision developers.",
+      "Screen reader accessibility plugin for Claude Code. Transforms overwhelming tool output into concise, speakable announcements via 14 tool formatters, earcon audio cues, and configurable TTS. 545 tests. Published on npm.",
     tags: ["TypeScript", "Node.js", "Accessibility", "CLI Plugin", "Open Source"],
     links: [
       {
         label: "GitHub",
         href: "https://github.com/vylasaven/claude-sonar",
+        external: true,
+      },
+      {
+        label: "npm",
+        href: "https://www.npmjs.com/package/claude-sonar",
         external: true,
       },
     ],
